@@ -1,14 +1,17 @@
-import './App.css'
+import React from 'react'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
+import Contents from './components/Contents/Contents'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <Nav />
+    <div>
+      <Header/>,
+      <Nav/>,
+      <Contents/>
     </div>
   )
 }
 
-export default App
+export default App;
+

@@ -1,12 +1,19 @@
 import React from 'react'
 import cls from './Nav.module.css'
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <nav className={cls.nav}>
-      <div className={cls.item}>Layout</div>
-      <div className={cls.item}>Java Script</div>
-      <div className={cls.item}>React</div>
+      <div className={cls.item}>
+        <NavLink to='layout'>Layout</NavLink>
+      </div>
+      <div className={cls.item}>
+        <NavLink to='js'>JS</NavLink>
+      </div>
+      <div className={cls.item}>
+        <NavLink to='react'>React</NavLink>
+      </div>
     </nav>
   )
 }
