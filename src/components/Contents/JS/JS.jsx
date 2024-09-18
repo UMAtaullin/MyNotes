@@ -12,21 +12,21 @@ const JS = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to='variables'>Переменные</NavLink>
+            <NavLink to='/js/variables/'>Переменные</NavLink>
           </li>
           <li>
-            <NavLink to='functions'>Функции</NavLink>
+            <NavLink to='/js/functions/'>Функции</NavLink>
           </li>
           <li>
-            <NavLink to='objects'>Объекты</NavLink>
+            <NavLink to='/js/objects/'>Объекты</NavLink>
           </li>
         </ul>
       </nav>
 
       <Routes>
-        <Route path='variables' element={<Variables/>} />
-        <Route path='functions' element={<Functions/>} />
-        <Route path='objects' element={<Objects/>} />
+        <Route path='/variables/' element={<Variables/>} />
+        <Route path='/functions/' element={<Functions/>} />
+        <Route path='/objects/' element={<Objects/>} />
       </Routes>
     </div>
   )

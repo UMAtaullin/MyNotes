@@ -8,8 +8,8 @@ const Contents = () => {
   return (
     <main>
       <Routes>
-        <Route path='/layout' element={<Layout/>} />
-        <Route path='/js' element={<JS/>} />
+        <Route path='/layout/' element={<Layout/>} />
+        <Route path='/js/*' element={<JS/>} />
         {/* <Route path='/react' element={<ReactComp />} /> */}
       </Routes>
     </main>
