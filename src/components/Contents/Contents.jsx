@@ -1,18 +1,18 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
+import JS from '../JS/JS'
 import Layout from './Layout/Layout'
-import JS from './JS/JS'
-
+import cls from './Contents.module.css'
 
 const Contents = () => {
   return (
-    <main>
+    <div className={cls.content}>
       <Routes>
-        <Route path='/layout/' element={<Layout/>} />
-        <Route path='/js/*' element={<JS/>} />
+        <Route path='/layout/' element={<Layout />} />
+        <Route path='/js/*' element={<JS />} />
         {/* <Route path='/react' element={<ReactComp />} /> */}
       </Routes>
-    </main>
+    </div>
   )
 }
 

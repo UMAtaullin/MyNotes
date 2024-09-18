@@ -5,8 +5,8 @@
   min-height: 720px;
 
   grid-template-areas:
-    'h h'
-    'n c';
+    'h n'
+    'c j';
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 3fr 10fr;

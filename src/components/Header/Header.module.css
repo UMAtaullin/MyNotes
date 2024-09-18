@@ -1,5 +1,6 @@
 .header {
   grid-area: h;
+  background-color: rgb(230, 194, 148);
 }
 
 .logo {

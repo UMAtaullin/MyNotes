@@ -4,10 +4,11 @@ import { NavLink } from 'react-router-dom'
 import Variables from './Topics/Variables'
 import Functions from './Topics/Function'
 import Objects from './Topics/Objects'
+import cls from './JS.module.css'
 
 const JS = () => {
   return (
-    <div>
+    <div className={cls.js}>
       <h2>Раздел: JavaScript</h2>
       <nav>
         <ul>
