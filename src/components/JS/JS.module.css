@@ -19,7 +19,7 @@
   background-color: rgb(24, 245, 24);
 }
 
-.item a{
+.item a {
   color: black;
   padding: 10px 60px 10px 10px;
   display: block;
@@ -28,4 +28,26 @@
 .items a:hover {
   background: black;
   color: #fff;
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 168px;
+  background: #fff;
+  display: none;
+}
+
+nav ul li ul li {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, .1)
+}
+
+nav ul li ul li ul{
+  left: 168px;
+  top: 0;
+}
+
+nav ul li:hover > ul {
+  display: initial;
 }

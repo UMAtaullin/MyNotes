@@ -5,6 +5,7 @@ import Variables from './Topics/Variables'
 import Functions from './Topics/Function'
 import Objects from './Topics/Objects'
 import cls from './JS.module.css'
+import DOM from './Topics/DOM'
 
 const JS = () => {
   return (
@@ -20,6 +21,34 @@ const JS = () => {
           <li className={cls.item}>
             <NavLink to='/js/objects/'>Объекты</NavLink>
           </li>
+          <li className={cls.item}>
+            <NavLink to='/js/dom/'>DOM &bigtriangledown;</NavLink>
+            <ul>
+              <li>
+                <NavLink to='/js/dom/ds'>DOM1 &bigtriangledown;</NavLink>
+                <ul>
+                  <li>
+                    <NavLink to='/js/dom/dd11'>DOM11</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to='/js/dom/dd12'>DOM12</NavLink>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <NavLink to='/js/dom/dd'>DOM2</NavLink>
+              </li>
+              <li>
+                <NavLink to='/js/dom/ff'>DOM3</NavLink>
+              </li>
+              <li>
+                <NavLink to='/js/dom/ee'>DOM4</NavLink>
+              </li>
+              <li>
+                <NavLink to='/js/dom/dd'>DOM5</NavLink>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
 
@@ -28,6 +57,7 @@ const JS = () => {
           <Route path='/variables/' element={<Variables />} />
           <Route path='/functions/' element={<Functions />} />
           <Route path='/objects/' element={<Objects />} />
+          <Route path='/dom/' element={<DOM />} />
         </Routes>
       </div>
     </div>
