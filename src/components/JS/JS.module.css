@@ -1,5 +1,20 @@
 .js {
-  padding: 10px 0px;
-  grid-area: j;
-  background-color: antiquewhite;
+  display: flex;
+  gap: 30px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: rgb(24, 245, 24);
+}
+
+.item {
+  color: yellow;
+  padding: 10px 60px 0 10px;
+}
+
+.items a:focus {
+  color: green;
 }

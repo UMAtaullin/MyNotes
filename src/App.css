@@ -6,9 +6,10 @@
 
   grid-template-areas:
     'h n'
-    'c j';
+    'c c';
 
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 40px 1fr;
   grid-template-columns: 3fr 10fr;
   /* grid-gap: 10px; */
 }
+

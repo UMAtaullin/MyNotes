@@ -1,11 +1,11 @@
 .header {
   grid-area: h;
-  background-color: rgb(230, 194, 148);
+  background-color: rgb(192, 192, 224);
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: green;
-  padding: 15px;
+  padding: 10px 0 0 10px;
 }

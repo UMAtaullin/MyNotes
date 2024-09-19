@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import JS from '../JS/JS'
-import Layout from './Layout/Layout'
+import Layout from '../Layout/Layout'
 import cls from './Contents.module.css'
 
 const Contents = () => {

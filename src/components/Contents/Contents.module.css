@@ -1,4 +1,6 @@
 .content {
-  padding: 10px 0px;
+  display: flex;
+  /* padding: 10px 0px; */
   grid-area: c;
+  background-color: antiquewhite;
 }
