@@ -12,7 +12,15 @@
 .item {
   padding: 10px;
   cursor: pointer;
+  display: block;
+  height: 100%;
   transition: background-color 0.3s, color 0.3s;
+}
+
+.item:hover,
+.item.active {
+  background-color: black;
+  color: white;
 }
 
 .item a:hover {
@@ -20,7 +28,7 @@
   color: #fff;
 }
 
-.item.active a{
+.item.active a {
   background-color: black;
   color: #fff;
 }
