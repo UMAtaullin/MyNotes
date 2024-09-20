@@ -1,0 +1,8 @@
+footer {
+  grid-area: f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  background-color: green;
+}
