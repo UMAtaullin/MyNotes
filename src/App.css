@@ -1,16 +1,14 @@
 .App {
-  margin: 0 auto;
   display: grid;
-  max-width: 1280px;
-  min-height: 720px;
+
 
   grid-template-areas:
     'h n'
     'c c'
     'f f';
 
-  grid-template-rows: 40px 1fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-columns: 3fr 10fr;
-  /* grid-gap: 10px; */
+  width: 100%;
+  min-height: 100vh;  /* Занимает всю высоту экрана */
 }
-
