@@ -4,16 +4,23 @@
   background-color: rgb(192, 192, 224);
 }
 
-.nav a {
-  color: black;
-  text-decoration: none;
-}
-
 .row {
   display: flex;
   gap: 50px;
 }
 
-.nav a:focus {
-  color: green;
+.item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.item a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.item.active a{
+  background-color: black;
+  color: #fff;
 }
