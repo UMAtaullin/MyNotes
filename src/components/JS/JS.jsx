@@ -22,10 +22,10 @@ const JS = () => {
             <NavLink to='/js/objects/'>Объекты</NavLink>
           </li>
           <li className={cls.item}>
-            <NavLink to='/js/dom/'>DOM &bigtriangledown;</NavLink>
+            <NavLink to='/js/dom/'>DOM &#9660;</NavLink>
             <ul>
               <li>
-                <NavLink to='/js/dom/ds'>DOM1 &bigtriangledown;</NavLink>
+                <NavLink to='/js/dom/ds'>DOM1 &#9660;</NavLink>
                 <ul>
                   <li>
                     <NavLink to='/js/dom/dd11'>DOM11</NavLink>

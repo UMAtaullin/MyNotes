@@ -10,7 +10,8 @@ const Header = () => {
           <div className={cls.logo}>
             <NavLink to='main_page'>UMA</NavLink>
           </div>
-          <div className={cls.item}>
+          <div 
+            className={cls.item}>
             <NavLink to='layout'>Layout</NavLink>
           </div>
           <div className={cls.item}>

@@ -30,6 +30,11 @@
   color: #fff;
 }
 
+.item a:focus {
+  color: blue;
+  font-weight: bold;
+}
+
 nav ul li ul {
   position: absolute;
   left: 0;
@@ -43,11 +48,11 @@ nav ul li ul li {
   border: 1px solid rgba(0, 0, 0, .1)
 }
 
-nav ul li ul li ul{
+nav ul li ul li ul {
   left: 168px;
   top: 0;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: initial;
 }
