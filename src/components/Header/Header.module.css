@@ -2,7 +2,6 @@
   grid-area: h;
   background-color: rgb(192, 192, 224);
   padding: 10px;
-  text-align: center;
 }
 
 .logo {
@@ -11,22 +10,3 @@
   color: green;
 }
 
-.nav {
-  display: flex;
-  background-color: rgb(192, 192, 224);
-}
-
-.nav a {
-  color: black;
-  text-decoration: none;
-}
-
-.row {
-  display: flex;
-  gap: 50px;
-}
-
-.item a:focus {
-  color: blue;
-  font-weight: bold;
-}

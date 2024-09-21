@@ -1,26 +1,13 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import cls from './Header.module.css'
 
 const Header = () => {
   return (
     <header className={cls.header}>
-      <nav className={cls.nav}>
-        <div className={cls.row}>
-          <div className={cls.logo}>
-            <NavLink to='main_page'>UMA</NavLink>
-          </div>
-          <div 
-            className={cls.item}>
-            <NavLink to='layout'>Layout</NavLink>
-          </div>
-          <div className={cls.item}>
-            <NavLink to='js'>JS</NavLink>
-          </div>
-          <div className={cls.item}>
-            <NavLink to='react'>React</NavLink>
-          </div>
-        </div>
-      </nav>
+      <div className={cls.logo}>
+        <NavLink to='main_page'>UMA</NavLink>
+      </div>
     </header>
   )
 }
